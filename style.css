@@ -1,0 +1,27 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+div{
+    background-color: grey;
+}
+body{
+    animation-name:one ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes one{
+    from{background-color: crimson;}
+    to{background-color: greenyellow;}
+}
+span{
+    color:red;
+    font-weight: bolder;
+    font-size:23px;
+}
+h4{
+    text-align: center;
+    color: greenyellow;
+    font-weight: bolder;
+}
